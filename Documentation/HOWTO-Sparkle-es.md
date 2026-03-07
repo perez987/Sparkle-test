@@ -36,7 +36,7 @@ En versiones anteriores a Sequoia, la advertencia de Gatekeeper para archivos de
 
 Pero en Sequoia y Tahoe la advertencia es más alarmante y podría inquietar al usuario. La solución es eliminar el atributo `com.apple.quarantine` para que, a partir de ese momento, puedas ejecutar la app sin problemas.
 
-Puedes leer sobre esto en [La app está dañada y no se puede abrir](APP-damaged-es.md).
+Puedes leer sobre esto en [La app está dañada y no se puede abrir](App-damaged-es.md).
 
 ## 4. Generar las claves EdDSA de Sparkle
 
