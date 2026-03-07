@@ -19,7 +19,10 @@ struct CheckForUpdatesView: View {
     let updater: SPUUpdater
 
     var body: some View {
-        Button("Check for Updates…", action: updater.checkForUpdates)
+        Button("Check for Updates…",
+               systemImage: "arrow.triangle.2.circlepath",
+               action: updater.checkForUpdates)
+            .keyboardShortcut("u", modifiers: [.command])
             .disabled(!checkForUpdatesViewModel.canCheckForUpdates)
     }
 }

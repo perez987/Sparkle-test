@@ -25,11 +25,9 @@ struct ContentView: View {
                 .foregroundColor(.secondary)
                 .textSelection(.enabled)
 
-            Button(NSLocalizedString("Check for Updates…", comment: "Menu item to check for app updates"),
-                systemImage: "arrow.triangle.2.circlepath") {
+            Button(NSLocalizedString("Check for Updates…", comment: "Menu item to check for app updates")) {
                 updater.checkForUpdates()
                 }
-                .keyboardShortcut("u", modifiers: [.command])
             .disabled(!checkForUpdatesViewModel.canCheckForUpdates)
             .buttonStyle(.borderedProminent)
             .controlSize(.large)

@@ -30,12 +30,11 @@ struct Sparkle_testApp: App {
         .windowResizability(.contentSize)
         .commands {
             // Add "Check for Updates…" to the application menu
-            CommandGroup(after: .appInfo) {
+            CommandGroup(after: .appInfo) {                
                 CheckForUpdatesView(
                     checkForUpdatesViewModel: checkForUpdatesViewModel,
                     updater: updaterController.updater
                 )
-                .keyboardShortcut("u", modifiers: [.command])
             }
         }
     }
