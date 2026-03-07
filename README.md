@@ -17,7 +17,7 @@ Project and app requirements were:
    - user files read-only
    - outgoing connections allowed
 
-Detailed instructions are available in the [HOWTO-Sparkle](HOWTO-Sparkle.md) file
+Detailed instructions are available in the [HOWTO-Sparkle](Documentation/HOWTO-Sparkle.md) file
 
 ---
 🌐 [Versión en español](README-es.md)

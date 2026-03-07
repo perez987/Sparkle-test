@@ -17,7 +17,7 @@ Los requisitos del proyecto y la app fueron:
    - archivos de usuario de solo lectura
    - conexiones salientes permitidas.
 
-Las instrucciones detalladas están disponibles en el archivo [HOWTO-Sparkle](HOWTO-Sparkle-es.md)
+Las instrucciones detalladas están disponibles en el archivo [HOWTO-Sparkle](Documentation/HOWTO-Sparkle-es.md)
 
 ---
 🌐 [English version](README.md)
