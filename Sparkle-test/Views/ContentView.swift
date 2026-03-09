@@ -1,8 +1,7 @@
-import SwiftUI
 import Sparkle
+import SwiftUI
 
 struct ContentView: View {
-
     @State private var appVersion: String = ""
     @State private var buildNumber: String = ""
 
@@ -22,7 +21,7 @@ struct ContentView: View {
                 .font(.title3)
                 .foregroundColor(.secondary)
                 .textSelection(.enabled)
-            }
+        }
         .padding(32)
         .frame(
             minWidth: 300,

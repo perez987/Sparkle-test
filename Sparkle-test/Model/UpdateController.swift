@@ -1,5 +1,5 @@
 //
-//  UpdaterController.swift
+//  UpdateController.swift
 //
 
 import Sparkle
