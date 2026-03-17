@@ -1,4 +1,4 @@
-# Sparkle-test: Setup Instructions
+# Sparkle-in-a-sandboxed-app: Setup Instructions
 
 This file describes everything you need to do after cloning this repository to build and run **Sparkle-test**, a sandboxed SwiftUI macOS app that uses the Sparkle update framework (v2.x).
 
